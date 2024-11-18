@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function HeroSection() {
     return (
       <section className="bg-gray-100">
@@ -17,7 +18,7 @@ export default function HeroSection() {
   
           {/* Image Section */}
           <div className="md:w-1/2 mt-6 md:mt-0">
-            <img
+            <Image
               src="images/img.png" 
               alt="Headphones"
               className="w-full h-auto object-contain"
