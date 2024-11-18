@@ -15,7 +15,7 @@ export default function HeroSection() {
               About us
             </h1>
             <p className="mt-4 text-gray-600">
-            we're driven by a passion for delivering exceptional sound experiences. Our journey began with a simple mission: to create headphones that harmoniously blend style, comfort, and crystal-clear audio.
+            we are driven by a passion for delivering exceptional sound experiences. Our journey began with a simple mission: to create headphones that harmoniously blend style, comfort, and crystal-clear audio.
               Explore our wide range of headphones and experience the best audio quality at unbeatable prices.
             </p>
             <button className="mt-6 px-6 py-2 bg-pink-400 text-white text-lg rounded-lg shadow-lg hover:bg-green-700">
