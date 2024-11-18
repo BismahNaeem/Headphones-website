@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import {Great_Vibes} from '@next/font/google'
+import Header from "./components/layout/header";
+import Footer from "./components/layout/footer";
+
+
+const  greatvibes = Great_Vibes ({
+  weight:['400'],
+  subsets:['latin-ext'],
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +37,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
