@@ -19,9 +19,10 @@ export default function HeroSection() {
           {/* Image Section */}
           <div className="md:w-1/2 mt-6 md:mt-0">
             <Image
-              src="images/img.png" 
+              src="/images/img.png" 
               alt="Headphones"
               className="w-full h-auto object-contain"
+              height={500}width={500}
             />
           </div>
         </div>

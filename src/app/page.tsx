@@ -7,8 +7,8 @@ export default function Home (){
     <>
    
     <HeroSection />
-    <About />
     <CardsSection />
+    <About />
     </>
   )
 }
