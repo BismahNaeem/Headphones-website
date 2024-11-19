@@ -91,7 +91,7 @@ export default function Header() {
         </div>
 
         {/* Navigation Links */}
-        <ul className="flex flex-row items-center justify-center space-x-3 mt-3 font-bold mx-w-auto">
+        <ul className="flex flex-row items-center justify-center space-x-3  font-medium mx-w-auto mt-4 ">
           <li>
             <Link href="/">HOME</Link>
           </li>
